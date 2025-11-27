@@ -1,0 +1,32 @@
+{
+  "version": "1.6.1",
+  "releaseDate": "2025-11-27",
+  "description": "Added auto-update system for HTML, JS, and CSS files from GitHub",
+  "changes": [
+    "Implemented automatic file update checking every 5 minutes",
+    "Added hot-reload capability for CSS and JavaScript",
+    "Added localStorage caching for offline capability",
+    "Added visual update notifications",
+    "Maintained all existing price checker functionality"
+  ],
+  "files": {
+    "html": {
+      "url": "https://raw.githubusercontent.com/jayasuperstore/pricechecker/main/index.html",
+      "lastModified": "2025-11-26"
+    },
+    "javascript": {
+      "url": "https://raw.githubusercontent.com/jayasuperstore/pricechecker/main/js/pricechecker.js",
+      "lastModified": "2025-11-27"
+    },
+    "css": {
+      "url": "https://raw.githubusercontent.com/jayasuperstore/pricechecker/main/css/pricechecker.css",
+      "lastModified": "2025-11-26"
+    }
+  },
+  "minimumBrowserVersion": {
+    "chrome": "90",
+    "firefox": "88",
+    "safari": "14",
+    "edge": "90"
+  }
+}
